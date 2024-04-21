@@ -1,1 +1,26 @@
-    
+.form {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    background-color: CornflowerBlue;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.field {
+    border-radius: 5px;
+    padding: 0 15px;
+    border: none;
+}
+
+.button {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 0 15px;
+}

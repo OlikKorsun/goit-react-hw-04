@@ -9,7 +9,7 @@ export const searchImg = async (search, currentPage) => {
                 client_id: "2rrD9AWV7ejmyrcf5G1eLtv5Z0TCsjIeX4prt1TgmVE",
                 query : search,
                 page : currentPage,
-                per_page: 3,
+                per_page: 12,
             },
         });
         return response.data.results;

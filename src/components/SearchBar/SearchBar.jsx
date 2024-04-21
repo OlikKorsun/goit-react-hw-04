@@ -19,7 +19,7 @@ export default function SearchBar({ onSearch }) {
     })
 
     return (
-    <header>
+    <header className={css.header}>
     <Formik initialValues={startValues} onSubmit={handleSubmit}>
     <Form className={css.form}>
         <label htmlFor={searchId} className={css.label}>
